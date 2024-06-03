@@ -8,7 +8,7 @@ def display_table():
             user="postgres",
             password="root",
             host="localhost",
-            port="5433",  # Change to your PostgreSQL port if different
+            port="5433",  
             database="netflix"
         )
 
