@@ -16,7 +16,7 @@ def display_table():
         cursor = connection.cursor()
 
         # Execute the SQL query to fetch data from the table
-        cursor.execute("SELECT * FROM netflix_titles_transformed LIMIT 10")
+        cursor.execute("SELECT * FROM netflix_counts_by_country")
 
         # Fetch all rows from the result set
         rows = cursor.fetchall()
